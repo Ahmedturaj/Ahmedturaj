@@ -1,4 +1,4 @@
-![logo](https://github.com/Ahmedturaj/Ahmedturaj/blob/main/Untitled%20design.jpg)
+![logo]([https://github.com/Ahmedturaj/Ahmedturaj/blob/main/Untitled%20design.jpg](https://github.com/Ahmedturaj/Ahmedturaj/blob/main/linkdin%20banner.png))
 <h1 align="center">Hi 👋, I'm SK Toukir Ahmed Turaj</h1>
 <h3 align="center">A passionate Web developer from Bangladesh</h3>
 
