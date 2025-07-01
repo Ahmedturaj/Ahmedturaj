@@ -1,5 +1,3 @@
-![logo](https://github.com/Ahmedturaj/Ahmedturaj/blob/main/linkdin%20banner.png)
-
 <h1 align="center">
   Hello 👋, my name is Shekh Toukir Ahmed Turaj from the district of Banglades, Satkhira.
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="waving hand" width="30px">
