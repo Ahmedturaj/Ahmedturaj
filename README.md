@@ -26,20 +26,48 @@ Hello there! 👋 I'm Shekh Toukir Ahmed Turaj, a dedicated Backend Developer wi
 
 ```javascript
 const toukir = {
-  name: "Sheikh Toukir Ahmed Turaj",
-  role: "Full Stack / Backend Developer",
-  tech: [
-    "Node.js",
-    "TypeScript",
-    "Express",
-    "Next.js",
-    "MongoDB",
-    "Mongoose",
-    "Zod",
-    "Stripe",
-    "Socket.IO",
-    "Cloudinary",
-    "Docker",
+  personal: {
+    name: {
+      full: "Sheikh Toukir Ahmed Turaj",
+      short: "Toukir",
+      alias: ["Turaj", "Ahmed T."],
+    },
+    role: ["Full Stack Developer", "Backend Specialist"],
+    location: {
+      country: "Bangladesh",
+      timezone: "+06:00",
+      remoteFriendly: true,
+    },
+  },
+  skills: {
+    core: ["Node.js", "TypeScript", "Express", "Next.js"],
+    database: {
+      primary: "MongoDB",
+      orm: "Mongoose",
+    },
+    validation: ["Zod"],
+    integrations: ["Stripe", "Cloudinary", "Socket.IO"],
+    devops: ["Docker", "GitHub Actions"],
+    currentlyLearning: ["Kubernetes", "GraphQL"],
+  },
+  projects: [
+    {
+      name: "Business Review System [rayb_23-backend]",
+      features: [
+        "Star ratings & photo upload",
+        "Google Reviews integration",
+        "Real-time notifications",
+        "Real-time chat",
+      ],
+      techStack: ["Node.js", "Express", "MongoDB", "Socket.IO"],
+      status: "completed",
+    },
+    {
+      name: "Payment Platform",
+      features: ["Stripe subscriptions", "PayPal integration", "Secure webhooks"],
+      techStack: ["TypeScript", "Express", "Stripe", "MongoDB"],
+      status: "in-progress",
+    },
   ],
   interests: [
     "building scalable APIs",
@@ -47,9 +75,38 @@ const toukir = {
     "real-time features",
     "developer tooling",
   ],
-  contact: "replace-with-your-email-or-links",
-  funFact: "I like to automate repetitive tasks and write clear docs."
+  contact: {
+    email: "ahmedturaj12@gmail.com",
+    github: "https://github.com/Ahmedturaj",
+    linkedin: "https://linkedin.com/in/your-profile](https://www.linkedin.com/in/sk-toukir-ahmed-turaj/",
+  },
+  funFacts: [
+    "I like to automate repetitive tasks and write clear docs.",
+    "I often learn new tech by building real-world mini-projects.",
+  ],
+  productivity: {
+    favoriteEditor: "VS Code",
+    os: "Windows + WSL",
+    workflow: {
+      prefers: ["TDD", "modular design", "clean commits"],
+      avoids: ["hardcoding", "manual repetitive work"],
+    },
+  },
+  stats: {
+    linesOfCodeWritten: () => Math.floor(Math.random() * 1_000_000),
+    yearsOfExperience: new Date().getFullYear() - 2021,
+  },
+  introduce() {
+    return `Hi, I'm ${this.personal.name.full}, a ${this.personal.role.join(
+      " & "
+    )}. I love ${this.interests[0]} and ${this.interests[2]}.`;
+  },
 };
+
+console.log(toukir.introduce());
+console.log("Random LOC:", toukir.stats.linesOfCodeWritten());
+console.log("Experience:", toukir.stats.yearsOfExperience, "years");
+
 ````
 ### 🧑💻 Status And Info
 
