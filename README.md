@@ -94,7 +94,7 @@ const toukir = {
   },
   stats: {
     linesOfCodeWritten: () => Math.floor(Math.random() * 1_000_000),
-    yearsOfExperience: new Date().getFullYear() - 2021,
+    yearsOfExperience: new Date().getFullYear() - 2024,
   },
   introduce() {
     return `Hi, I'm ${this.personal.name.full}, a ${this.personal.role.join(
